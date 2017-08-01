@@ -1,0 +1,29 @@
+.wrapper.self-assignment .content HEADER {
+  padding-top: 38px;
+}
+
+.wrapper.self-assignment .content HEADER .logo-wrapper .logo IMG {
+  width: 90px;
+  height: auto;
+}
+
+.wrapper.self-assignment .content HEADER .logo-wrapper .text {
+  color: #ffffff;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  width: 80px;
+  line-height: 17px;
+  padding-top: 25px;
+}
+
+.wrapper.self-assignment .content HEADER .pers-check {
+  width: 237px;
+  height: 44px;
+  background: url('../../../img/self-assignment/step-2-3-4/pers-check-bg.png') no-repeat;
+  color: #ffffff;
+  line-height: 44px;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 55px;
+}

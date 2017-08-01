@@ -1,0 +1,186 @@
+.content-wrapper.step-1 {
+  width: 100%;
+  background: url('../../img/self-assignment/step-1/bg.jpg') no-repeat left top;
+  background-size: cover;
+  position: relative;
+  min-height: 500px;
+}
+
+.content-wrapper.step-1 .heads-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 478px;
+  width: 100%;
+  background: url('../../img/self-assignment/step-1/heads.png') no-repeat right top;
+}
+
+.content-wrapper.step-1 .tablet-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 448px;
+  width: 100%;
+  background: url('../../img/self-assignment/step-1/tablet.png') no-repeat center top;
+}
+
+.content-wrapper.self-assignment.step-1 .content {
+  width: 884px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .title {
+  font-size: 36px;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .descr {
+  color: #ffffff;
+  width: 760px;
+  padding-top: 38px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .marks {
+  padding: 11px;
+  background-color: rgba(142,147,170,0.7);
+  border: 2px solid #b6c7e3;
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-bottom: 60px;
+  width: 760px;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .marks LI {
+  display: inline-block;
+  margin: 0 26px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .marks LI:first-child {
+  margin-left: 0;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .marks LI:last-child {
+  margin-right: 0;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .marks LI > I.mark {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .answers {
+}
+
+.content-wrapper.self-assignment.step-1 .content > .answers LI {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 40px;
+  display: table;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .answers LI > * {
+  display: table-cell;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .answers LI I.number {
+  padding-top: 8px;
+  margin-right: 22px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+  width: 44px;
+  height: 53px;
+  font-size: 32px;
+  color: #cce4ed;
+  font-weight: normal;
+  background: url('../../img/self-assignment/step-1/number.png') no-repeat center center;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .answers LI SPAN {
+  height: 53px;
+  vertical-align: middle;
+  width: 630px;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .answers .user-mark {
+  width: 188px;
+  font-size: 48px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .answers .user-mark I {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 7px;
+  background-color: #2ee69f;
+  text-align: center;
+  line-height: 27px;
+  font-size: 52px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .answers .user-mark I.plus {
+  line-height: 40px;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .answers .user-mark .mark {
+  display: inline-block;
+  width: 56px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .navigation {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .navigation .hexagon {
+  width: 171px;
+  height: 198px;
+  background: url('../../img/self-assignment/step-1/hexagon.png') no-repeat;
+  padding: 0 18px;
+  box-sizing: border-box;
+  display: table;
+}
+
+.content-wrapper.self-assignment.step-1 .content > .navigation .hexagon > SPAN {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.content-wrapper.self-assignment.step-1 .btn {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 11px 14px 9px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 800;
+  outline: none;
+  color: #2ee69f;
+  margin-top: 150px;
+}

@@ -1,0 +1,226 @@
+#app > DIV[data-reactroot] {
+  height: 100%;
+}
+
+.wrapper.register .content {
+  width: 100%;
+  height: calc(100% - 80px);
+  background: url('../img/register/bg.jpg') no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+  min-height: 610px;
+}
+
+.wrapper.register .content .columns {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper.register .content .column:first-child {
+  padding: 68px 0 0 38px;
+  width: 465px;
+}
+
+.wrapper.register .content .column:first-child .camera {
+  width: 130px;
+  text-align: right;
+}
+
+.wrapper.register .content .column:first-child IMG {
+  width: 123px;
+  height: 123px;
+  object-fit: cover;
+
+  background: white;
+  border-radius: 61px;
+}
+
+.wrapper.register .content .column:last-child {
+  padding: 68px 0 0 0;
+  width: 465px;
+}
+
+.wrapper.register .content .column.oder {
+  padding-top: 388px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  width: 180px;
+  margin-right: 15px;
+}
+
+.wrapper.register .content .column.oder:before,
+.wrapper.register .content .column.oder:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 35px;
+  background: url('../img/register/arrow.png') no-repeat;
+  position: absolute;
+  left: 84px;
+  top: 346px;
+}
+
+.wrapper.register .content .column.oder:after {
+  top: 419px;
+  left: 58px;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.wrapper.register .content H2.title {
+  font-weight: 900;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.wrapper.register .content H2.title:before {
+  content: '';
+  position: relative;
+  display: block;
+  left: 0;
+  border-bottom: 4px solid;
+  top: 45px;
+  width: 140px;
+  color: #be99ff;
+}
+
+.wrapper.register .content H2.title.color-2:before {
+  color: #99c0ff;
+}
+
+.wrapper.register .content P {
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.wrapper.register .content .tutorial-video .plyr {
+  padding-top: 20px;
+  border-radius: 4px;
+}
+
+.color-1:before {
+    color: #be99ff;
+}
+
+.color-2 {
+  color: #2e74e6;
+}
+
+.color-2:before {
+    color: #99c0ff;
+}
+
+.wrapper.register .content .column FORM.user-register {
+  padding-top: 22px;
+}
+
+.wrapper.register .content .column UL.social-links {
+  padding-top: 104px;
+}
+
+.wrapper.register .content .column FORM.user-register .input {
+  outline: none;
+  width: 446px;
+  height: 48px;
+  font-size: 24px;
+  padding: 0 15px;
+  border: none;
+  background: rgba(160, 160, 160, .35);
+  color: #ffffff;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.wrapper.register .content .column FORM.user-register .input:focus {
+  border: 1px solid #ffffff;
+}
+
+.wrapper.register .content .column FORM.user-register .submit {
+  margin-top: 26px;
+  background: #2ee69f;
+  color: #ffffff;
+  border-color: #2ee69f;
+  font-size: 22px;
+  padding: 5px 22px;
+}
+
+.wrapper.register .content .column UL.social-links LI.social-link {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.wrapper.register .content .column UL.social-links LI.social-link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 48px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.wrapper.register .content .column UL.social-links LI.social-link > A {
+  margin-left: 62px;
+  position: relative;
+}
+
+.wrapper.register .content .column UL.social-links LI.social-link > A:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: -2px;
+  left: -65px;
+}
+
+.wrapper.register .content .column UL.social-links LI.social-link > A.facebook:before {
+  background-image: url('../img/register/facebook.png');
+}
+
+.wrapper.register .content .column UL.social-links LI.social-link > A.twitter:before {
+  background-image: url('../img/register/twitter.png');
+}
+
+.wrapper.register .content .column UL.social-links LI.social-link > A.google-plus:before {
+  background-image: url('../img/register/google.png');
+}
+
+.wrapper.register .content .column UL.social-links LI.social-link > A.linkedin:before {
+  background-image: url('../img/register/linkedin.png');
+}
+
+.wrapper.register .content .btn {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2ee69f;
+  line-height: 37px;
+  border-radius: 6px;
+  border: 2px solid;
+  padding: 3px 16px;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1024px) {
+  .wrapper.register .header,
+  .wrapper.register .content,
+  .wrapper.register .footer {
+    width: 1230px;
+  }
+}

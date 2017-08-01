@@ -1,0 +1,84 @@
+.wrapper .footer {
+  height: 80px;
+  background-color: #512aa9;
+  color: #ffffff;
+  position: relative;
+}
+
+.wrapper .footer .menu {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.wrapper .footer .menu .logo {
+  display: block;
+  width: 48px;
+  line-height: 80px;
+}
+
+.wrapper .footer .menu .logo IMG {
+  vertical-align: middle;
+}
+
+.wrapper .footer .menu .logo-descr {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 26px 0 0 10px;
+}
+
+.wrapper .footer .menu .text-item {
+  line-height: 80px;
+  padding: 0 25px;
+}
+
+.wrapper .footer .menu .logo-descr + .text-item {
+  padding-left: 64px;
+}
+
+.wrapper .footer .menu .text-item A {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper .footer .menu .text-item A:hover {
+  text-decoration: underline;
+}
+
+.wrapper .footer .menu .social-item A {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.wrapper .footer .menu .social-item I {
+  width: 34px;
+  display: block;
+  padding: 0 12px;
+  background: url(../img/social-bg.png) no-repeat center center;
+  line-height: 80px;
+  text-align: center;
+  color: #512aa9;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrapper .footer .menu .social-item I {
+  font-family: FontAwesome;
+}
+
+.wrapper .footer .menu .social-item I.instagram:before {
+  content: "\f16d";
+}
+
+.wrapper .footer .menu .social-item I.facebook:before {
+  content: "\f09a";
+}
+
+.wrapper .footer .menu .social-item I.twitter:before {
+  content: "\f173";
+}
+
+.wrapper .footer .menu .social-item I.youtube:before {
+  content: "\f16a";
+}

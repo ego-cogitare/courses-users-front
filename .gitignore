@@ -1,0 +1,4 @@
+node_modules
+public
+.idea
+src/config.prod.js

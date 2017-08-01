@@ -1,0 +1,21 @@
+.wrapper.self-assignment FOOTER {
+  display: block;
+  width: 100%;
+  height: 83px;
+}
+
+.wrapper.self-assignment FOOTER > DIV {
+  height: 100%;
+  line-height: 83px;
+  background-color: rgba(142, 147, 170, 0.5);
+}
+
+.wrapper.self-assignment FOOTER > DIV A {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.wrapper.self-assignment FOOTER > DIV A:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,1060 @@
+.wrapper.lesson .content {
+  width: 640px;
+  min-height: 300px;
+  background-color: #ededed;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 90px;
+  top: 0;
+}
+
+.wrapper.lesson .content .left-sitebar {
+  width: 250px;
+  margin-left: -256px;
+  position: fixed;
+}
+
+.wrapper.lesson .content .left-sitebar:before {
+  display: block;
+  content: '';
+  width: 30px;
+  height: 48px;
+  background: url('../img/polyline.png') no-repeat;
+  margin-top: 133px;
+  margin-left: 48px;
+}
+
+.wrapper.lesson .content .left-sitebar .lection-icon {
+  position: absolute;
+  left: 38px;
+  top: 50px;
+  width: 75px;
+  height: 75px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL {
+  margin-left: 49px;
+  border-left: 1px solid #f18eb4;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI {
+  position: relative;
+  padding-left: 22px;
+  margin-left: -1px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI:last-child {
+  border-left: 1px solid #ededed;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI > *:last-child {
+  padding-bottom: 30px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI:before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: -17px;
+  top: 0;
+  background: url('../img/icons-map.png') no-repeat #ededed;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.transparent {
+  opacity: 0.5;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.video-active:before {
+  background-position: -128px -1px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.video-inactive:before {
+  background-position: -128px -34px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.reading-active:before {
+  background-position: -96px -1px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.reading-inactive:before {
+  background-position: -96px -34px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.notice-active:before {
+  background-position: -64px -1px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.notice-inactive:before {
+  background-position: -64px -34px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.mosaic-active:before {
+  background-position: -32px -1px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.mosaic-inactive:before {
+  background-position: -32px -32px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.bag-active:before {
+  background-position: 0 -1px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation > UL > LI.bag-inactive:before {
+  background-position: 0 -33px;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation .title-text {
+  color: #7b7b7b;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation .title-text:hover {
+  text-decoration: underline;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation .descr-text {
+  color: #7b7b7b;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  padding-top: 6px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation .descr-text > P {
+  display: block;
+  display: -webkit-box;
+  max-width: 400px;
+  height: 64px;
+  margin: 0 auto;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.wrapper.lesson .content .left-sitebar .content-navigation .title-text.active {
+  color: #e84282;
+}
+
+.wrapper.lesson .content .course {
+  width: 560px;
+}
+
+.wrapper.lesson > .content > .course > .title {
+  font-size: 36px;
+  color: #404040;
+  margin-top: 40px;
+}
+
+.wrapper.lesson .content .course .step {
+  padding-bottom: 50px;
+}
+
+.wrapper.lesson .content .course .step:last-child {
+  padding-bottom: 350px;
+}
+
+.wrapper.lesson .content .course .step.bg-practise {
+  background: url('../img/toolbox-bg.png') no-repeat 4px 44px;
+  background-size: 84%;
+}
+
+.wrapper.lesson .content .course > .step > .title,
+.wrapper.lesson .content .course > .step > .keylearnings > .title,
+.wrapper.lesson .content .course > .step > .data .self-check-section > DIV > .title {
+  color: #404040;
+  font-size: 25px;
+  margin-top: 40px;
+  display: inline-block;
+  border-bottom: 4px solid #2ee69f;
+  padding-bottom: 8px;
+}
+
+.wrapper.lesson .content .course > .step > .title > .course-completion {
+  margin: -4px 7px 0 0;
+}
+
+.wrapper.lesson .content .course .step > .data {
+  margin-top: 36px;
+}
+
+.wrapper.lesson .content .course .step > .data .hexagons-section {
+  padding-bottom: 50px;
+}
+
+.wrapper.lesson .content .course .step > .data .hexagons-section:last-child {
+  padding-bottom: 0;
+}
+
+.wrapper.lesson .content .course .step > .data .hexagon-column {
+  width: 180px;
+  min-height: 1px;
+}
+
+.wrapper.lesson .content .course .step > .data .hexagon-column .hexagon {
+  width: 170px;
+  height: 197px;
+  background: url('../img/hexagon.png') no-repeat;
+  margin-bottom: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.wrapper.lesson .content .course .step > .data .hexagon-column .hexagon:after {
+  display: block;
+  content: '';
+  width: 56px;
+  height: 29px;
+  position: absolute;
+  bottom: 16px;
+  left: 58px;
+  background: url('../img/lection/pdf-icon.png') no-repeat;
+}
+
+.wrapper.lesson .content .course .step > .data .hexagon-column .hexagon.single-element {
+  margin-top: 104px;
+}
+
+.wrapper.lesson .content .course .step > .data .hexagon-column .hexagon .icon {
+  width: 68px;
+  height: 68px;
+  margin: 0px auto;
+  padding-top: 24px;
+}
+
+.wrapper.lesson .content .course .step > .data .hexagon-column .hexagon .title {
+  width: 130px;
+  margin: 16px auto;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.hexagon-red-arrow {
+  background: url('../img/lection/hexagon-red-arrows.png') no-repeat center bottom;
+}
+
+.hexagon-grey-arrow {
+  background: url('../img/lection/hexagon-grey-arrows.png') no-repeat center bottom;
+}
+
+.hexagon-blue-cube {
+  background: url('../img/lection/hexagon-blue-cube.png') no-repeat center bottom;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section {
+  width: 550px;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .tags-wrapper .row .tags > LI {
+  display: inline-block;
+  margin: 5px;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .tags-wrapper .row .tags > LI:first-child {
+  margin-left: 0;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .tags-wrapper .row .tags .tag {
+  border-radius: 16px;
+  padding: 13px 18px;
+  background-color: #ffffff;
+  display: block;
+  color: #404040;
+  font-size: 18px;
+  text-decoration: none;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .tags-wrapper .row:after {
+  display: block;
+  width: 528px;
+  height: 1px;
+  content: '';
+  /*background: url('../img/lection-separator.png') no-repeat 12px 0;*/
+  margin: 21px 0;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .tags-wrapper .row:last-child:after {
+  display: none;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .tags-wrapper .row .tags .tag:hover,
+.wrapper.lesson .content .course .step > .data .self-check-section .tags-wrapper .row .tags .tag.checked {
+  background-color: #fff299;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper {
+  width: 496px;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #e0e0e0;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row {
+  margin-bottom: 20px;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .title {
+  font-size: 20px;
+  color: #404040;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons {
+  width: 319px;
+  height: 40px;
+  position: relative;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons > DIV {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons.lamp .colour {
+  background-image: url('../img/lection/self-check-lamps-colour.png');
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons.lamp .grayscale {
+  background-image: url('../img/lection/self-check-lamps-grayscale.png');
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons.darts .colour {
+  background-image: url('../img/lection/self-check-darts-colour.png');
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons.darts .grayscale {
+  background-image: url('../img/lection/self-check-darts-grayscale.png');
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons.chart .colour {
+  background-image: url('../img/lection/self-check-chart-colour.png');
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons.chart .grayscale {
+  background-image: url('../img/lection/self-check-chart-grayscale.png');
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons.human .colour {
+  background-image: url('../img/lection/self-check-human-colour.png');
+}
+
+.wrapper.lesson .content .course .step > .data .self-check-section .icons-wrapper .row .icons.human .grayscale {
+  background-image: url('../img/lection/self-check-human-grayscale.png');
+}
+
+.wrapper.lesson .content .course .step > .data .square-row {
+  display: table;
+  width: 100%;
+  margin-left: -16px;
+}
+
+.wrapper.lesson .content .course .step > .data .square-row .square-column {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.wrapper.lesson .content .course .step > .data .square-row .square {
+  width: 214px;
+  height: 214px;
+  display: inline-block;
+  margin-right: 65px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  background: rgba(57, 139, 236, 0.65) url('../img/lection/pdf-icon.png') no-repeat center 165px;
+}
+
+.wrapper.lesson .content .course .step > .data .square-row .square-column:last-child .square {
+  margin-right: 0;
+}
+
+.wrapper.lesson .content .course .step > .data .square-row .square .icon {
+  width: 75px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin: 24px auto 0;
+  background-size: contain;
+}
+
+.wrapper.lesson .content .course .step > .data .square-row .square .descr {
+  width: 90%;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 20px auto 0;
+  color: #ffffff;
+}
+
+.square-like-1 {
+  background-image: url('../img/lection/square-like-1.png');
+}
+
+.square-like-2 {
+  background-image: url('../img/lection/square-like-2.png');
+}
+
+.square-like-3 {
+  background-image: url('../img/lection/square-like-3.png');
+}
+
+.square-message-1 {
+  background-image: url('../img/lection/square-message-1.png');
+}
+
+.wrapper.lesson .content .course .step .mark-completed {
+  margin-top: 14px;
+  display: block;
+}
+
+.wrapper.lesson .content .course .step .mark-completed .course-completion {
+  margin-right: 5px;
+}
+
+.wrapper.lesson .content .course .step .mark-completed > SPAN {
+  vertical-align: middle;
+}
+
+.wrapper.lesson .content .course .step .keylearnings-editor {
+  width: 506px;
+  height: 136px;
+  background-color: #ffffff;
+  background-image: url('../img/lection/pencill.png');
+  background-repeat: no-repeat;
+  background-position: right -2px;
+  outline: none;
+  margin-top: 25px;
+  padding: 15px;
+  overflow: auto;
+  border: none;
+  margin-bottom: -3px;
+  resize: none;
+}
+
+.wrapper.lesson .content .course .step .keylearnings-button {
+  width: 118px;
+  height: 32px;
+  border: 2px solid #2ee69f;
+  outline: none;
+  margin: 16px 0 0 415px;
+  color: #2ee69f;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.wrapper.lesson .content .course .step .keylearnings {
+  position: relative;
+}
+
+.wrapper.lesson .content .course .step .keylearnings > I.spinner {
+  position: absolute;
+  font-size: 18px;
+  top: 110px;
+  right: 28px;
+  color: #777777;
+  display: none;
+}
+
+.wrapper.lesson .content .course .step .keylearnings.loading .keylearnings-button {
+  color: #cccccc;
+  border-color: #cccccc;
+}
+
+.wrapper.lesson .content .course .step .keylearnings.loading  > I.spinner {
+  display: block;
+}
+
+.wrapper.lesson .content .course .step .message-limitations {
+  width: 506px;
+  padding: 15px;
+  background-color: #ffffff;
+  color: #cccccc;
+  font-size: 12px;
+}
+
+.wrapper.lesson .content .course .step > .tags-wrapper {
+  margin-top: 38px;
+  padding-left: 34px;
+  background: url('../img/lection/tag-label.png') no-repeat left top;
+}
+
+.wrapper.lesson .content .course .step > .tags-wrapper > SPAN {
+  vertical-align: top;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.wrapper.lesson .content .course .step > .tags-wrapper .tags {
+  display: inline-block;
+  padding-left: 8px;
+  max-width: 440px;
+}
+
+.wrapper.lesson .content .course .step > .tags-wrapper .tags LI {
+  display: inline-block;
+  padding: 6px;
+  border-radius: 3px;
+  font-size: 13px;
+  background-color: #be99ff;
+  margin: 3px;
+}
+
+.wrapper.lesson .content .course .step > .tags-wrapper .tags LI:hover {
+  background-color: #8145e6;
+}
+
+.wrapper.lesson .content .course .step > .tags-wrapper .tags LI A {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.wrapper.lesson .content .course .step .descr-wrapper {
+  padding-top: 16px;
+}
+
+.wrapper.lesson .content .course .step .descr-wrapper .icon {
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  margin-top: 6px;
+}
+
+.wrapper.lesson .content .course .step .inlarge {
+  cursor: pointer;
+  margin-top: -3px;
+  display: block;
+}
+
+.type-video {
+  background-image: url('../img/lection/type-video.png');
+}
+
+.type-reading {
+  background-image: url('../img/lection/type-reading.png');
+}
+
+.type-bag {
+  background-image: url('../img/lection/type-bag.png');
+}
+
+.type-mosaic {
+  background-image: url('../img/lection/type-mosaic.png');
+}
+
+.type-notice {
+  background-image: url('../img/lection/type-notices.png');
+}
+
+.wrapper.lesson .content .course .step .descr-wrapper .descr {
+  width: 465px;
+  line-height: 24px;
+  color: #404040;
+}
+
+
+/* Video player */
+.wrapper.lesson .content .course .step > .video-container {
+  height: 340px;
+  overflow: hidden;
+}
+
+.wrapper.lesson .content .course .step > .video-container VIDEO {
+  cursor: pointer;
+  height: 340px;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-controls {
+  position: relative;
+  height: 58px;
+  top: -15px;
+  background-color: rgba(232, 228, 225, 0.9);
+  padding: 10px;
+  transition: top 0.3s;
+}
+
+.wrapper.lesson .content .course .step > .video-container:hover .video-controls {
+  top: -93px;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-time {
+  position: absolute;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-play-buttons {
+  position: absolute;
+  display: block;
+  height: 48px;
+  padding-top: 27px;
+  text-align: center;
+  width: calc(100% - 20px);
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-prev-button,
+.wrapper.lesson .content .course .step > .video-container .video-next-player,
+.wrapper.lesson .content .course .step > .video-container .video-play-player {
+  display: inline-block;
+  height: 48px;
+  vertical-align: middle;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-prev-button {
+  background: url("../img/video-player/prev-button.png");
+  width: 14px;
+  height: 10px;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-next-player {
+  background: url("../img/video-player/next-button.png");
+  width: 14px;
+  height: 10px;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-play-player {
+  background: url("../img/video-player/play-button.png");
+  width: 18px;
+  height: 21px;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-play-player.paused {
+  background: url("../img/video-player/pause-button.png");
+  width: 18px;
+  height: 21px;
+  background-size: 18px 21px;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-volume {
+  position: absolute;
+  margin-top: 27px;
+  right: 42px;
+  width: 34px;
+  cursor: pointer;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-volume-background {
+  position: absolute;
+  background: url("../img/video-player/volume-background.png");
+  width: 34px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-volume-progress {
+  position: absolute;
+  background: url("../img/video-player/volume-progress.png");
+  width: 34px;
+  height: 16px;
+  pointer-events: none;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-full-screen {
+  position: absolute;
+  right: 10px;
+  margin-top: 27px;
+  background: url("../img/video-player/video-arrows.png");
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-progress-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 11px;
+  background: rgba(0, 0, 0, .25);
+  cursor: move;
+}
+
+.wrapper.lesson .content .course .step > .video-container .video-progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 11px;
+  background: #8145e6;
+  pointer-events: none;
+}
+/* Video player */
+
+.wrapper.lesson .right-sitebar {
+  width: 298px;
+  background-color: #d9d9d9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 1000;
+  /*overflow: auto;*/
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+.wrapper.lesson .right-sitebar.minified {
+  right: -268px;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL {
+  padding-top: 24px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI {
+  padding-left: 36px;
+  position: relative;
+  display: block;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI:last-child {
+  overflow: hidden;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI.transparent {
+  opacity: 0.5;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI.triangle {
+    height: 120px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI.triangle > I.toggle:after {
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 11px solid #ffffff;
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 0;
+  top: 1px;
+  cursor: pointer;
+}
+
+.wrapper.lesson .right-sitebar.minified .content-navigation > UL > LI.triangle > I.toggle:after {
+  border-top: none;
+  border-bottom: 11px solid #ffffff;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > I.toggle {
+  content: attr(data-vertical-text);
+  position: absolute;
+  text-transform: uppercase;
+  color: #ffffff;
+  transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  right: 118px;
+  top: 154px;
+  display: block;
+  width: 300px;
+  height: 20px;
+  white-space: nowrap;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  padding-right: 25px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > DIV.message > I.remove,
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > DIV.subcomments .message I.remove {
+  position: absolute;
+  right: 36px;
+  top: -3px;
+  color: #c50;
+  cursor: pointer;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > DIV.message > I.remove:hover,
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > DIV.subcomments .message I.remove:hover {
+  color: #c00;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI:last-child .clear {
+  margin-bottom: 0;
+  border: none;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI.triangle:after {
+  top: 165px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .avatar {
+  width: 36px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .avatar > IMG {
+  max-width: 30px;
+  max-height: 80px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .item-wrapper {
+  width: 190px;
+  padding-bottom: 10px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .item-wrapper .statistics {
+  color: #777777;
+  padding-top: 14px;
+  font-size: 9px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .item-wrapper .statistics > DIV {
+  margin-right: 4px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .item-wrapper .statistics > DIV > SPAN {
+  padding-left: 4px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .item-wrapper .statistics .hearts {
+  margin-right: 8px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .item-wrapper .statistics .hearts,
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .item-wrapper .statistics .comments {
+  cursor: pointer;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .separator {
+  width: 226px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 24px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .community-editor,
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .toolbox {
+  width: 206px;
+  height: 50px;
+  outline: none;
+  background-color: #ebebeb;
+  padding: 10px;
+  font-size: 12px;
+  resize: none;
+  margin-bottom: -4px;
+  border: 1px solid #dbdbdb;
+}
+
+/* Subcomments message styles */
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > .subcomments > * {
+  font-size: 10px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > .subcomments .community-editor,
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > .subcomments .toolbox {
+  width: 171px;
+  height: 30px;
+  margin-right: 34px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > .subcomments .toolbox {
+  height: 15px;
+  margin-bottom: 0;
+  padding: 3px 10px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .subcomments .avatar {
+  width: 26px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .subcomments .avatar > IMG {
+  width: 20px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > .subcomments .messages .message {
+  width: 192px;
+  margin-right: 34px;
+  position: relative;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .subcomments .item-wrapper {
+  width: 165px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI > DIV.subcomments .message I.remove {
+  right: 5px;
+  top: 0px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .subcomments .item-wrapper .title-text {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 10px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .subcomments .item-wrapper .descr-text {
+  font-size: 10px;
+}
+/* Subcomments message styles */
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .toolbox {
+  height: 16px;
+  padding: 5px 10px;
+  border-top: 1px solid #d9d9d9;
+  line-height: 16px;
+  margin-bottom: 24px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .toolbox .send {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #777777;
+  cursor: pointer;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .toolbox .send:after {
+  content: "\f1d9";
+  font-family: Fontawesome;
+  padding-left: 5px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .item-wrapper .title-text {
+  font-size: 11px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.wrapper.lesson .right-sitebar .content-navigation > UL > LI .item-wrapper .descr-text {
+  font-size: 12px;
+  line-height: 15px;
+  color: #777777;
+  font-weight: 600;
+}
+
+.wrapper .content .quiz-link {
+  width: 100%;
+  height: 366px;
+  position: absolute;
+  bottom: -20px;
+  background: url('../img/quiz/quiz.png') no-repeat;
+  background-size: 300px;
+  background-position-y: 94px;
+}
+
+.wrapper .content .quiz-link .container {
+  margin-left: 0px;
+  margin-top: 120px;
+  position: relative;
+}
+
+.wrapper .content .quiz-link .container > DIV:first-child {
+  width: 398px;
+  height: 100px;
+}
+/*
+.wrapper .content .quiz-link .container > DIV:first-child:before {
+  position: absolute;
+  top: 24px;
+  display: block;
+  content: '';
+  width: 68px;
+  height: 68px;
+  background: url('../img/quiz-link-lamp.png') no-repeat center center;
+  z-index: 1;
+}*/
+
+.wrapper .content .quiz-link .container .descr-text {
+  color: #eb4d87;
+  font-size: 32px;
+  line-height: 34px;
+  position: absolute;
+  top: 42px;
+  left: 58px;
+  z-index: 2;
+}
+
+.wrapper .content .quiz-link .hexagon {
+  width: 162px;
+  height: 193px;
+  background: url('../img/quiz-hexagon.png') no-repeat;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.wrapper .content .quiz-link .hexagon .icon {
+  width: 49px;
+  height: 48px;
+  margin: 0px auto;
+  padding-top: 24px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.wrapper .content .quiz-link .hexagon .title {
+  width: 130px;
+  margin: 16px auto;
+}
+
+.wrapper .content .quiz-link .hexagon .title A {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.wrapper .content .quiz-link .hexagon .title A:hover {
+  text-decoration: underline;
+}
+
+.quiz-owl-icon {
+  background-image: url('../img/lection/type-owl.png') ;
+}
+
+@media all and (max-width: 1024px) {
+  .wrapper.lesson .header,
+  .wrapper.lesson .content,
+  .wrapper.lesson .footer {
+    width: 1230px;
+  }
+}

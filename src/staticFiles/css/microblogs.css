@@ -1,0 +1,133 @@
+.wrapper.microblogs .content-wrapper {
+  width: 100%;
+  background: url('../img/microblogs/bg.jpg') no-repeat left top;
+  background-size: cover;
+  position: relative;
+  min-height: 500px;
+  margin-top: 90px;
+}
+
+.wrapper.microblogs .content-wrapper .heads-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 478px;
+  width: 100%;
+  background: url('../img/microblogs/heads.png') no-repeat right top;
+}
+
+.wrapper.microblogs .content-wrapper .tablet-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 448px;
+  width: 100%;
+  background: url('../img/microblogs/tablet.png') no-repeat center top;
+}
+
+.wrapper.microblogs .content {
+  width: 885px;
+  min-height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper.microblogs .content > .title {
+  font-size: 36px;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.wrapper.microblogs .content .block:last-child {
+  padding-bottom: 96px;
+}
+
+.wrapper.microblogs .content .block > .title {
+  color: #ffffff;
+  margin: 32px 0 32px 0;
+  font-weight: 600;
+  font-size: 28px;
+  display: block;
+  text-decoration: none;
+}
+
+.wrapper.microblogs .content .block > .title > I.number {
+  padding-top: 11px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 44px;
+  height: 53px;
+  color: #cce4ed;
+  font-weight: normal;
+  background: url('../img/microblogs/number.png') no-repeat center center;
+}
+
+.wrapper.microblogs .content .block > .row {
+  position: relative;
+}
+
+.wrapper.microblogs .content .block > .row > .descr-title {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.wrapper.microblogs .content .block > .row > .descr-title A {
+  text-decoration: none;
+}
+
+.wrapper.microblogs .content .block > .row > I.spinner {
+  display: none;
+  position: absolute;
+  font-size: 18px;
+  top: 47px;
+  right: 2px;
+  color: #333333;
+}
+
+.wrapper.microblogs .content .block > .row.loading > I.spinner {
+  display: block;
+}
+
+.wrapper.microblogs .content .block > .row.loading .btn {
+  color: #cccccc;
+  border-color: #cccccc;
+}
+
+.wrapper.microblogs .content .block > .row > .descr {
+  background: rgba(98, 40, 96, 0.3) url('../img/microblogs/pencill.png') no-repeat right center;
+  background-size: contain;
+  padding: 15px 190px 15px 15px;
+  border-radius: 6px;
+  color: #ffffff;
+  line-height: 25px;
+  margin-top: 18px;
+  margin-bottom: 24px;
+  resize: none;
+  width: 678px;
+  height: 130px;
+}
+
+.wrapper.microblogs .color-yellow {
+  color: #fff299;
+}
+
+.wrapper.microblogs .btn {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 11px 14px 9px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 19px;
+  outline: none;
+  color: #2ee69f;
+}

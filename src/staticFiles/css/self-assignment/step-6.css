@@ -1,0 +1,151 @@
+.wrapper.self-assignment.step-6 {
+  width: 100%;
+  background: url('../../img/self-assignment/step-2-3-4/bg.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.wrapper.self-assignment.step-6 .content {
+  width: 908px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper.self-assignment.step-6 .heads-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 478px;
+  width: 100%;
+  background: url('../../img/self-assignment/step-5/heads.png') no-repeat right top;
+}
+
+.wrapper.self-assignment.step-6 .tablet-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 448px;
+  width: 100%;
+  background: url('../../img/self-assignment/step-5/tablet.png') no-repeat center top;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .indicator {
+  width: 267px;
+  height: 321px;
+  background: url('../../img/self-assignment/step-5/indicator.png') no-repeat;
+  margin-left: 68px;
+  margin-top: 77px;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .indicator .progress-wrapper {
+  width: 18px;
+  height: 180px;
+  margin-left: 60px;
+  margin-top: 28px;
+  position: relative;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .indicator-descr {
+  color: #ffffff;
+  font-size: 35px;
+  width: 490px;
+  padding-top: 92px;
+  line-height: 40px;
+  padding-left: 80px;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .indicator .progress-wrapper .indicator-progress {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: url('../../img/self-assignment/step-5/indicator-progress.png') repeat-y;
+  min-height: 10% !important;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .title {
+  font-size: 42px;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-left: 68px;
+  font-weight: 800;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .descr {
+  padding-top: 15px;
+  padding-left: 68px;
+  max-width: 670px;
+  line-height: 25px;
+  color: #ffffff;
+  font-size: 38px;
+  padding-bottom: 36px;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .row:first-child {
+  padding-top: 50px;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .row {
+  padding-bottom: 20px;
+  padding-left: 68px;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .row > .number {
+  padding-top: 11px;
+  margin-right: 22px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 44px;
+  height: 53px;
+  color: #cce4ed;
+  font-weight: normal;
+  background: url('../../img/self-assignment/step-5/number.png') no-repeat center center;
+  font-size: 30px;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .row > .info-block {
+  width: 770px;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION > .row > .info-block > .title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 900;
+  padding-top: 16px;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION .question-block {
+  width: 600px;
+  margin: 0 auto 50px;
+  margin-top: 50px;
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 22px;
+  background: url('../../img/self-assignment/step-5/question-mark.png') no-repeat left top;
+  padding-left: 70px;
+}
+
+.wrapper.self-assignment.step-6 .content SECTION .step-page {
+  padding-bottom: 20px;
+  color: #565b73;
+}
+
+.wrapper.self-assignment.step-6 .btn {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 11px 14px 9px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 19px;
+  outline: none;
+  color: #2ee69f;
+  margin-bottom: 70px;
+}

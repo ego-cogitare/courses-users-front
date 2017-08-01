@@ -1,0 +1,154 @@
+.wrapper.profile .content .columns {
+    width: 515px;
+    margin: 0 auto;
+}
+
+.wrapper.profile {
+  height: 100%;
+}
+
+.wrapper.profile .content {
+  background-color: #ededed;
+  margin: 0 auto;
+  min-height: calc(100% - 120px);
+  padding-top: 40px;
+}
+
+.wrapper.profile .content .column:first-child {
+    padding: 68px 0 0 0;
+    width: 465px;
+}
+
+.wrapper.profile .content .column:first-child .camera {
+    width: 130px;
+    text-align: right;
+}
+
+.wrapper.profile .content .column:first-child IMG {
+    width: 123px;
+    height: 123px;
+    object-fit: cover;
+    border-radius: 61px;
+}
+
+.wrapper.profile .content H2.title {
+    font-weight: 900;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 30px;
+    color: #404040;
+}
+
+.wrapper.profile .content H2.title:before {
+    content: '';
+    position: relative;
+    display: block;
+    left: 0;
+    border-bottom: 4px solid;
+    top: 45px;
+    width: 140px;
+    color: #be99ff;
+}
+
+.wrapper.profile .content H2.title.color-2:before {
+    color: #99c0ff;
+}
+
+.wrapper.profile .content .column FORM.user-register {
+    padding-top: 22px;
+}
+
+.wrapper.profile .content .column FORM.user-register .input {
+    outline: none;
+    width: 446px;
+    height: 48px;
+    font-size: 24px;
+    padding: 0 15px;
+    border: none;
+    background: rgba(160, 160, 160, .35);
+    color: #ffffff;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.wrapper.profile .content .column FORM.user-register .input:focus {
+    border: 1px solid #ffffff;
+}
+
+.wrapper.profile .content .column FORM.user-register .btn {
+    margin-top: 26px;
+    display: inline-block;
+    position: relative;
+    background: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 11px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    color: #2ee69f;
+    border-color: #2ee69f;
+}
+
+.wrapper.profile .content P {
+    line-height: 22px;
+    color: #7b7b7b;
+}
+
+.wrapper.profile .content P.notice {
+    padding-top: 0px;
+}
+
+.wrapper.profile .rodal-dialog {
+    padding: 0;
+}
+
+.wrapper.profile .rodal-dialog > * {
+    padding: 15px;
+}
+
+.wrapper.profile .rodal-dialog .modal-header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.wrapper.profile .rodal-dialog .modal-footer {
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+.wrapper.profile .rodal-dialog .btn {
+    display: inline-block;
+    position: relative;
+    background: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 4px 4px;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    color: #2ee69f;
+    border-color: #2ee69f;
+}
+
+.camera {
+    position: relative;
+}
+
+.camera .loader {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.camera .loader .line-scale>div {
+    background: #2ed0e6;
+}
+

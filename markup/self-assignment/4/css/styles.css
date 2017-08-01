@@ -1,0 +1,564 @@
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-thin.eot');
+  src: url('../font/raleway-thin.eot?#iefix') format('embedded-opentype'), url('../font/raleway-thin.woff') format('woff'), url('../font/raleway-thin.ttf') format('truetype'), url('../font/raleway-thin.svg#ralewaythin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-extralight.eot');
+  src: url('../font/raleway-extralight.eot?#iefix') format('embedded-opentype'), url('../font/raleway-extralight.woff') format('woff'), url('../font/raleway-extralight.ttf') format('truetype'), url('../font/raleway-extralight.svg#ralewayextralight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-light.eot');
+  src: url('../font/raleway-light.eot?#iefix') format('embedded-opentype'), url('../font/raleway-light.woff') format('woff'), url('../font/raleway-light.ttf') format('truetype'), url('../font/raleway-light.svg#ralewaylight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-regular.eot');
+  src: url('../font/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../font/raleway-regular.woff') format('woff'), url('../font/raleway-regular.ttf') format('truetype'), url('../font/raleway-regular.svg#ralewayregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-medium.eot');
+  src: url('../font/raleway-medium.eot?#iefix') format('embedded-opentype'), url('../font/raleway-medium.woff') format('woff'), url('../font/raleway-medium.ttf') format('truetype'), url('../font/raleway-medium.svg#ralewaymedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-semibold.eot');
+  src: url('../font/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-semibold.woff') format('woff'), url('../font/raleway-semibold.ttf') format('truetype'), url('../font/raleway-semibold.svg#ralewaysemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-bold.eot');
+  src: url('../font/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-bold.woff') format('woff'), url('../font/raleway-bold.ttf') format('truetype'), url('../font/raleway-bold.svg#ralewaybold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-extrabold.eot');
+  src: url('../font/raleway-extrabold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-extrabold.woff') format('woff'), url('../font/raleway-extrabold.ttf') format('truetype'), url('../font/raleway-extrabold.svg#ralewayextrabold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-heavy.eot');
+  src: url('../font/raleway-heavy.eot?#iefix') format('embedded-opentype'), url('../font/raleway-heavy.woff') format('woff'), url('../font/raleway-heavy.ttf') format('truetype'), url('../font/raleway-heavy.svg#ralewayheavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Raleway Webfont'
+}
+
+ .text-left {
+   text-align: left;
+ }
+
+.text-center {
+  text-align: center;
+}
+
+ .text-right {
+   text-align: right;
+ }
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-extra-bold {
+  font-weight: 900;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.w50p {
+  width: 50%;
+}
+
+.w100p {
+  width: 100%;
+}
+
+.h100p {
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrapper .header {
+  height: 90px;
+  background-color: #2ed0e6;
+  white-space: nowrap;
+}
+
+.wrapper .header .menu-wrapper {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.wrapper .header .menu-wrapper .header-menu {
+	width: 998px;
+}
+
+.wrapper .header .menu-wrapper A.logo,
+.wrapper .header .menu-wrapper A.messages {
+  display: block;
+  margin: 20px 0 0;
+  text-decoration: none;
+}
+
+.wrapper .header .menu-wrapper A.messages {
+  margin-right: 55px;
+  position: relative;
+  outline: none;
+}
+
+.wrapper .header .menu-wrapper A.messages:after {
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 4px;
+  top: 1px;
+  content: attr(data-count);
+  font-size: 12px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 16px;
+  background-color: #e62e74;
+  text-align: center;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup:before {
+  border-right: 11px solid transparent;
+  border-left: 11px solid transparent;
+  border-bottom: 11px solid #add5e4;
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 15px;
+  top: -11px;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup {
+  width: 358px;
+  position: absolute;
+  top: 62px;
+  right: 0;
+  background: #dcdcdc;
+  border-radius: 5px;
+  z-index: 999;
+  box-shadow: 0px 0px 16px 0px #000000;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup > DIV:first-child,
+.wrapper .header .menu-wrapper A.messages DIV.message-popup > DIV:last-child {
+  border-radius: 5px;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .write {
+  background: url('../img/message-header-bg.png') no-repeat;
+  height: 42px;
+  color: #ffffff;
+  padding: 14px;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .write .title-1 {
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  padding-bottom: 9px;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .write .title-2 {
+  font-size: 15px;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .write .submit {
+  color: #9864bd;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .user-name {
+  padding: 9px 14px;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .user-name .an {
+  padding-top: 6px;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .history {
+  white-space: initial;
+  background-color: #ffffff;
+  padding: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .history > P {
+  margin-bottom: 18px;
+  white-space: normal;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .history > P:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .new-message {
+  background-color: #ffffff;
+  padding: 8px 14px 14px;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .new-message INPUT {
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  width: 311px;
+  border: 1px solid #ccc;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .user-name INPUT {
+  background: none;
+  outline: none;
+  border: none;
+  width: 285px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.wrapper .header .menu-wrapper A.messages DIV.message-popup .inbox {
+  padding: 14px;
+  background-color: #add5e4;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.wrapper .header .menu-wrapper A.logo IMG {
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.wrapper .header UL.menu {
+  display: inline-block;
+}
+
+.wrapper .header UL.menu LI.menu-item {
+  display: inline-block;
+  line-height: 88px;
+  padding: 0 15px;
+}
+
+.wrapper .header UL.menu LI.menu-item A {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.wrapper .header UL.menu LI A:hover {
+  color: #AFAFAF;
+}
+
+.wrapper.self-assignment .content-wrapper {
+  width: 100%;
+  background: url('../img/bg-microblogs.png') no-repeat left top;
+  background-size: cover;
+  position: relative;
+  min-height: 500px;
+}
+
+.wrapper.self-assignment .content-wrapper .heads-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 478px;
+  width: 100%;
+  background: url('../img/heads.png') no-repeat right top;
+}
+
+.wrapper.self-assignment .content-wrapper .tablet-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 448px;
+  width: 100%;
+  background: url('../img/tablet.png') no-repeat center top;
+}
+
+.wrapper.self-assignment .content {
+  width: 884px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper.self-assignment .content > .title {
+  font-size: 36px;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.wrapper.self-assignment .content > .descr {
+  color: #ffffff;
+  width: 760px;
+  padding-top: 38px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.wrapper.self-assignment .content > .marks {
+  padding: 11px;
+  background-color: rgba(142,147,170,0.7);
+  border: 2px solid #b6c7e3;
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-bottom: 60px;
+  width: 760px;
+}
+
+.wrapper.self-assignment .content > .marks LI {
+  display: inline-block;
+  margin: 0 26px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.wrapper.self-assignment .content > .marks LI:first-child {
+  margin-left: 0;
+}
+
+.wrapper.self-assignment .content > .marks LI:last-child {
+  margin-right: 0;
+}
+
+.wrapper.self-assignment .content > .marks LI > I.mark {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+.wrapper.self-assignment .content > .answers {
+}
+
+.wrapper.self-assignment .content > .answers LI {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 40px;
+  display: table;
+}
+
+.wrapper.self-assignment .content > .answers LI > * {
+  display: table-cell;
+}
+
+.wrapper.self-assignment .content > .answers LI I.number {
+  padding-top: 8px;
+  margin-right: 22px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+  width: 44px;
+  height: 53px;
+  font-size: 32px;
+  color: #cce4ed;
+  font-weight: normal;
+  background: url('../img/number.png') no-repeat center center;
+}
+
+.wrapper.self-assignment .content > .answers LI SPAN {
+  height: 53px;
+  vertical-align: middle;
+  width: 630px;
+}
+
+.wrapper.self-assignment .content > .answers .user-mark {
+  width: 188px;
+  font-size: 48px;
+}
+
+.wrapper.self-assignment .content > .answers .user-mark I {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 7px;
+  background-color: #2ee69f;
+  text-align: center;
+  line-height: 27px;
+  font-size: 52px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.wrapper.self-assignment .content > .answers .user-mark I.plus {
+  line-height: 40px;
+}
+
+.wrapper.self-assignment .content > .answers .user-mark .mark {
+  display: inline-block;
+  width: 56px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.wrapper.self-assignment .content > .navigation {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.wrapper.self-assignment .content > .navigation .hexagon {
+  width: 171px;
+  height: 198px;
+  background: url('../img/hexagon.png') no-repeat;
+  padding: 0 18px;
+  box-sizing: border-box;
+  display: table;
+}
+
+.wrapper.self-assignment .content > .navigation .hexagon > SPAN {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.wrapper.self-assignment .btn {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 11px 14px 9px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 800;
+  outline: none;
+  color: #2ee69f;
+  margin-top: 150px;
+}
+
+.wrapper .footer {
+  height: 80px;
+  background-color: #512aa9;
+  color: #ffffff;
+}
+
+.wrapper .footer .menu {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.wrapper .footer .menu .logo {
+  display: block;
+  width: 48px;
+  line-height: 80px;
+}
+
+.wrapper .footer .menu .logo IMG {
+  vertical-align: middle;
+}
+
+.wrapper .footer .menu .logo-descr {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 26px 0 0 10px;
+}
+
+.wrapper .footer .menu .text-item {
+  line-height: 80px;
+  padding: 0 25px;
+}
+
+.wrapper .footer .menu .logo-descr + .text-item {
+  padding-left: 64px;
+}
+
+.wrapper .footer .menu .social-item A {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.wrapper .footer .menu .social-item I {
+  width: 34px;
+  display: block;
+  padding: 0 12px;
+  background: url(../img/social-bg.png) no-repeat center center;
+  line-height: 80px;
+  text-align: center;
+  color: #512aa9;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrapper .footer .menu .social-item I {
+  font-family: FontAwesome;
+}
+
+.wrapper .footer .menu .social-item I.instagram:before {
+  content: "\f16d";
+}
+
+.wrapper .footer .menu .social-item I.facebook:before {
+  content: "\f09a";
+}
+
+.wrapper .footer .menu .social-item I.twitter:before {
+  content: "\f173";
+}
+
+.wrapper .footer .menu .social-item I.youtube:before {
+  content: "\f16a";
+}
+
+.wrapper .footer .menu .social-item I.youtube {
+  /*padding-right: 0;*/
+}
+
+@media all and (max-width: 1024px) {
+  .wrapper .header,
+  .wrapper .content,
+  .wrapper .footer {
+    width: 1230px;
+  }
+}

@@ -1,0 +1,397 @@
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-thin.eot');
+  src: url('../font/raleway-thin.eot?#iefix') format('embedded-opentype'), url('../font/raleway-thin.woff') format('woff'), url('../font/raleway-thin.ttf') format('truetype'), url('../font/raleway-thin.svg#ralewaythin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-extralight.eot');
+  src: url('../font/raleway-extralight.eot?#iefix') format('embedded-opentype'), url('../font/raleway-extralight.woff') format('woff'), url('../font/raleway-extralight.ttf') format('truetype'), url('../font/raleway-extralight.svg#ralewayextralight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-light.eot');
+  src: url('../font/raleway-light.eot?#iefix') format('embedded-opentype'), url('../font/raleway-light.woff') format('woff'), url('../font/raleway-light.ttf') format('truetype'), url('../font/raleway-light.svg#ralewaylight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-regular.eot');
+  src: url('../font/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../font/raleway-regular.woff') format('woff'), url('../font/raleway-regular.ttf') format('truetype'), url('../font/raleway-regular.svg#ralewayregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-medium.eot');
+  src: url('../font/raleway-medium.eot?#iefix') format('embedded-opentype'), url('../font/raleway-medium.woff') format('woff'), url('../font/raleway-medium.ttf') format('truetype'), url('../font/raleway-medium.svg#ralewaymedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-semibold.eot');
+  src: url('../font/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-semibold.woff') format('woff'), url('../font/raleway-semibold.ttf') format('truetype'), url('../font/raleway-semibold.svg#ralewaysemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-bold.eot');
+  src: url('../font/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-bold.woff') format('woff'), url('../font/raleway-bold.ttf') format('truetype'), url('../font/raleway-bold.svg#ralewaybold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-extrabold.eot');
+  src: url('../font/raleway-extrabold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-extrabold.woff') format('woff'), url('../font/raleway-extrabold.ttf') format('truetype'), url('../font/raleway-extrabold.svg#ralewayextrabold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-heavy.eot');
+  src: url('../font/raleway-heavy.eot?#iefix') format('embedded-opentype'), url('../font/raleway-heavy.woff') format('woff'), url('../font/raleway-heavy.ttf') format('truetype'), url('../font/raleway-heavy.svg#ralewayheavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Raleway Webfont";
+}
+
+ .text-left {
+   text-align: left;
+ }
+
+.text-center {
+  text-align: center;
+}
+
+ .text-right {
+   text-align: right;
+ }
+
+.text-bold {
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.w50p {
+  width: 50%;
+}
+
+.w100p {
+  width: 100%;
+}
+
+.h100p {
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrapper .header {
+  height: 90px;
+  background-color: #2ed0e6;
+  white-space: nowrap;
+}
+
+.wrapper .header .menu-wrapper {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.wrapper .header .menu-wrapper .header-menu {
+	width: 998px;
+}
+
+.wrapper .header .menu-wrapper A.logo {
+  display: block;
+  margin: 20px 0 0;
+  text-decoration: none;
+}
+
+.wrapper .header .menu-wrapper A.logo IMG {
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.wrapper .header UL.menu {
+  display: inline-block;
+}
+
+.wrapper .header UL.menu LI.menu-item {
+  display: inline-block;
+  line-height: 88px;
+  padding: 0 15px;
+}
+
+.wrapper .header UL.menu LI.menu-item A {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.wrapper .header UL.menu LI A:hover {
+  color: #AFAFAF;
+}
+
+
+
+.wrapper.self-assignment .content-wrapper {
+  background: url('../img/selfassignment-3-bg.png') no-repeat center center;
+  background-size: cover;
+  height: calc(100% - 170px);
+  min-height: 580px;
+}
+
+.wrapper.self-assignment .content {
+  width: 1200px;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.wrapper.self-assignment .content .column:first-child {
+  padding: 0 0 0 38px;
+  width: 465px;
+}
+
+.wrapper.self-assignment .content .column:last-child {
+  padding: 0 0 0 195px;
+  width: 465px;
+}
+
+.wrapper.self-assignment .content .title {
+  font-weight: 900;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.wrapper.self-assignment .content .title:before {
+  content: '';
+  position: relative;
+  display: block;
+  left: 0;
+  border-bottom: 4px solid;
+  top: 45px;
+  width: 70px;
+  color: #be99ff;
+}
+
+.wrapper.self-assignment .content .eye {
+  padding: 0 0 0 106px;
+  line-height: 28px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 500;
+  background: url('../img/eye.png') no-repeat left top;
+}
+
+.wrapper.self-assignment .content .title.color-2:before {
+  color: #99c0ff;
+}
+
+.wrapper.self-assignment .content .menu LI {
+  border-bottom: 1px solid #585858;
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  margin-left: 78px;
+}
+
+.wrapper.self-assignment .content .menu {
+  counter-reset: list 0;
+}
+
+.wrapper.self-assignment .content .menu LI:before {
+  counter-increment: list;
+  content: counter(list) ". ";
+  position: absolute;
+  left: -79px;
+  top: 17px;
+  width: 39px;
+  height: 45px;
+  background: url(../img/content-menu-bg.png) no-repeat;
+  color: #2e74e6;
+  line-height: 45px;
+  font-weight: 600;
+  text-indent: 13px;
+}
+
+.wrapper.self-assignment .content .menu LI:after {
+  content: '';
+  position: absolute;
+  height: 25px;
+  border-left: 2px solid #99c0ff;
+  left: -60px;
+  top: 68px;
+}
+
+.wrapper.self-assignment .content .menu LI.disabled:before {
+  font-family: FontAwesome;
+  text-indent: 2px;
+  text-align: center;
+  content: "\f00c";
+  background: url(../img/content-menu-disabled-bg.png) no-repeat;
+  color: #99c0ff;
+}
+
+.wrapper.self-assignment .content .menu LI:last-child:after {
+  border: none;
+}
+
+.wrapper.self-assignment .content .menu LI A {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+
+.wrapper.self-assignment .content .menu LI.disabled A {
+  color: #7a7a7a;
+}
+
+.wrapper.self-assignment .color-1:before {
+    color: #be99ff;
+}
+
+.wrapper.self-assignment .color-2 {
+  color: #2e74e6;
+}
+
+.wrapper.self-assignment .color-2:before {
+    color: #99c0ff;
+}
+
+.wrapper.self-assignment .content .weiter {
+  margin-top: 30px;
+}
+
+.wrapper.self-assignment .content .weiter .btn {
+  text-transform: uppercase;
+  color: #2ee69f;
+  text-decoration: none;
+  line-height: 37px;
+  border-radius: 6px;
+  border: 2px solid;
+  padding: 5px 15px 3px 15px;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 36px;
+}
+
+
+
+.wrapper .footer {
+  height: 80px;
+  background-color: #512aa9;
+  color: #ffffff;
+}
+
+.wrapper .footer .menu {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.wrapper .footer .menu .logo {
+  display: block;
+  width: 48px;
+  line-height: 80px;
+}
+
+.wrapper .footer .menu .logo IMG {
+  vertical-align: middle;
+}
+
+.wrapper .footer .menu .logo-descr {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 26px 0 0 10px;
+}
+
+.wrapper .footer .menu .text-item {
+  line-height: 80px;
+  padding: 0 25px;
+}
+
+.wrapper .footer .menu .logo-descr + .text-item {
+  padding-left: 64px;
+}
+
+.wrapper .footer .menu .social-item A {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.wrapper .footer .menu .social-item I {
+  width: 34px;
+  display: block;
+  padding: 0 12px;
+  background: url(../img/social-bg.png) no-repeat center center;
+  line-height: 80px;
+  text-align: center;
+  color: #512aa9;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrapper .footer .menu .social-item I {
+  font-family: FontAwesome;
+}
+
+.wrapper .footer .menu .social-item I.instagram:before {
+  content: "\f16d";
+}
+
+.wrapper .footer .menu .social-item I.facebook:before {
+  content: "\f09a";
+}
+
+.wrapper .footer .menu .social-item I.twitter:before {
+  content: "\f173";
+}
+
+.wrapper .footer .menu .social-item I.youtube:before {
+  content: "\f16a";
+}
+
+@media all and (max-width: 1024px) {
+  .wrapper .header,
+  .wrapper .content,
+  .wrapper .footer {
+    width: 1230px;
+  }
+}

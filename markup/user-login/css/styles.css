@@ -1,0 +1,403 @@
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-thin.eot');
+  src: url('../font/raleway-thin.eot?#iefix') format('embedded-opentype'), url('../font/raleway-thin.woff') format('woff'), url('../font/raleway-thin.ttf') format('truetype'), url('../font/raleway-thin.svg#ralewaythin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-extralight.eot');
+  src: url('../font/raleway-extralight.eot?#iefix') format('embedded-opentype'), url('../font/raleway-extralight.woff') format('woff'), url('../font/raleway-extralight.ttf') format('truetype'), url('../font/raleway-extralight.svg#ralewayextralight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-light.eot');
+  src: url('../font/raleway-light.eot?#iefix') format('embedded-opentype'), url('../font/raleway-light.woff') format('woff'), url('../font/raleway-light.ttf') format('truetype'), url('../font/raleway-light.svg#ralewaylight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-regular.eot');
+  src: url('../font/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../font/raleway-regular.woff') format('woff'), url('../font/raleway-regular.ttf') format('truetype'), url('../font/raleway-regular.svg#ralewayregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-medium.eot');
+  src: url('../font/raleway-medium.eot?#iefix') format('embedded-opentype'), url('../font/raleway-medium.woff') format('woff'), url('../font/raleway-medium.ttf') format('truetype'), url('../font/raleway-medium.svg#ralewaymedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-semibold.eot');
+  src: url('../font/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-semibold.woff') format('woff'), url('../font/raleway-semibold.ttf') format('truetype'), url('../font/raleway-semibold.svg#ralewaysemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-bold.eot');
+  src: url('../font/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-bold.woff') format('woff'), url('../font/raleway-bold.ttf') format('truetype'), url('../font/raleway-bold.svg#ralewaybold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-extrabold.eot');
+  src: url('../font/raleway-extrabold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-extrabold.woff') format('woff'), url('../font/raleway-extrabold.ttf') format('truetype'), url('../font/raleway-extrabold.svg#ralewayextrabold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-heavy.eot');
+  src: url('../font/raleway-heavy.eot?#iefix') format('embedded-opentype'), url('../font/raleway-heavy.woff') format('woff'), url('../font/raleway-heavy.ttf') format('truetype'), url('../font/raleway-heavy.svg#ralewayheavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Raleway Webfont";
+}
+
+ .text-left {
+   text-align: left;
+ }
+
+.text-center {
+  text-align: center;
+}
+
+ .text-right {
+   text-align: right;
+ }
+
+.text-bold {
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.w50p {
+  width: 50%;
+}
+
+.w100p {
+  width: 100%;
+}
+
+.h100p {
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.color-fff {
+  color: #fff;
+}
+
+.wrapper .content {
+  width: 1200px;
+  height: 625px;
+  background: url(../img/bg.png) no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.wrapper .content .column:first-child {
+  padding: 68px 0 0 38px;
+  width: 465px;
+}
+
+.wrapper .content .column:last-child {
+  padding: 68px 0 0 0;
+  width: 465px;
+}
+
+.wrapper .content .column.oder {
+  padding-top: 262px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  width: 180px;
+  margin-right: 15px;
+}
+
+.wrapper .content .column.oder:before,
+.wrapper .content .column.oder:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 35px;
+  background: url('../img/arrow.png') no-repeat;
+  position: absolute;
+  left: 84px;
+  top: 220px;
+}
+
+.wrapper .content .column.oder:after {
+  top: 293px;
+  left: 58px;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.wrapper .content H2.title {
+  font-weight: 900;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.wrapper .content H2.title:before {
+  content: '';
+  position: relative;
+  display: block;
+  left: 0;
+  border-bottom: 4px solid;
+  top: 45px;
+  width: 140px;
+  color: #be99ff;
+}
+
+.wrapper .content H2.title.color-2:before {
+  color: #99c0ff;
+}
+
+.wrapper .content P {
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.wrapper .content .tutorial-video .plyr {
+  padding-top: 20px;
+  border-radius: 4px;
+}
+
+.wrapper .content .tutorial-video VIDEO {
+  width: 100%;
+}
+
+.color-1:before {
+    color: #be99ff;
+}
+
+.color-2 {
+  color: #2e74e6;
+}
+
+.color-2:before {
+    color: #99c0ff;
+}
+
+.wrapper .content .column FORM.user-login,
+.wrapper .content .column UL.social-links {
+  padding-top: 40px;
+}
+
+.wrapper .content .column FORM.user-login .input {
+  outline: none;
+  width: 446px;
+  height: 48px;
+  font-size: 24px;
+  padding: 0 15px;
+  border: none;
+  background: rgba(128,128,128,0.35);
+  color: #ffffff;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.wrapper .content .column FORM.user-login .input:focus {
+  border: 1px solid #ffffff;
+}
+
+.wrapper .content .column FORM.user-login .submit {
+  margin-top: 26px;
+  background: #2ee69f;
+  color: #ffffff;
+  border-color: #2ee69f;
+  font-size: 22px;
+  padding: 5px 22px;
+}
+
+.wrapper .content .column A.forgot-password {
+  color: #2ee69f;
+  margin-top: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.wrapper .content .column UL.social-links LI.social-link {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.wrapper .content .column UL.social-links LI.social-link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 48px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.wrapper .content .column UL.social-links LI.social-link > A {
+  margin-left: 62px;
+  position: relative;
+}
+
+.wrapper .content .column UL.social-links LI.social-link > A:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: -2px;
+  left: -65px;
+}
+
+.wrapper .content .column UL.social-links LI.social-link > A.facebook:before {
+  background-image: url('../img/facebook.png');
+}
+
+.wrapper .content .column UL.social-links LI.social-link > A.twitter:before {
+  background-image: url('../img/twitter.png');
+}
+
+.wrapper .content .column UL.social-links LI.social-link > A.google-plus:before {
+  background-image: url('../img/google.png');
+}
+
+.wrapper .content .column UL.social-links LI.social-link > A.linkedin:before {
+  background-image: url('../img/linkedin.png');
+}
+
+.wrapper .content .btn {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2ee69f;
+  line-height: 37px;
+  border-radius: 6px;
+  border: 2px solid;
+  padding: 3px 16px;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+}
+
+.wrapper .footer {
+  height: 80px;
+  background-color: #512aa9;
+  color: #ffffff;
+}
+
+.wrapper .footer .menu {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.wrapper .footer .menu .logo {
+  display: block;
+  width: 48px;
+  line-height: 80px;
+}
+
+.wrapper .footer .menu .logo IMG {
+  vertical-align: middle;
+}
+
+.wrapper .footer .menu .logo-descr {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 26px 0 0 10px;
+}
+
+.wrapper .footer .menu .text-item {
+  line-height: 80px;
+  padding: 0 25px;
+}
+
+.wrapper .footer .menu .logo-descr + .text-item {
+  padding-left: 64px;
+}
+
+.wrapper .footer .menu .social-item A {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.wrapper .footer .menu .social-item I {
+  width: 34px;
+  display: block;
+  padding: 0 12px;
+  background: url(../img/social-bg.png) no-repeat center center;
+  line-height: 80px;
+  text-align: center;
+  color: #512aa9;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrapper .footer .menu .social-item I {
+  font-family: FontAwesome;
+}
+
+.wrapper .footer .menu .social-item I.instagram:before {
+  content: "\f16d";
+}
+
+.wrapper .footer .menu .social-item I.facebook:before {
+  content: "\f09a";
+}
+
+.wrapper .footer .menu .social-item I.twitter:before {
+  content: "\f173";
+}
+
+.wrapper .footer .menu .social-item I.youtube:before {
+  content: "\f16a";
+}
+
+@media all and (max-width: 1024px) {
+  .wrapper .header,
+  .wrapper .content,
+  .wrapper .footer {
+    width: 1230px;
+  }
+}

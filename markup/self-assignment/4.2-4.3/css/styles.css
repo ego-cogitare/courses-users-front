@@ -1,0 +1,312 @@
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-thin.eot');
+  src: url('../font/raleway-thin.eot?#iefix') format('embedded-opentype'), url('../font/raleway-thin.woff') format('woff'), url('../font/raleway-thin.ttf') format('truetype'), url('../font/raleway-thin.svg#ralewaythin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-extralight.eot');
+  src: url('../font/raleway-extralight.eot?#iefix') format('embedded-opentype'), url('../font/raleway-extralight.woff') format('woff'), url('../font/raleway-extralight.ttf') format('truetype'), url('../font/raleway-extralight.svg#ralewayextralight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-light.eot');
+  src: url('../font/raleway-light.eot?#iefix') format('embedded-opentype'), url('../font/raleway-light.woff') format('woff'), url('../font/raleway-light.ttf') format('truetype'), url('../font/raleway-light.svg#ralewaylight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-regular.eot');
+  src: url('../font/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../font/raleway-regular.woff') format('woff'), url('../font/raleway-regular.ttf') format('truetype'), url('../font/raleway-regular.svg#ralewayregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-medium.eot');
+  src: url('../font/raleway-medium.eot?#iefix') format('embedded-opentype'), url('../font/raleway-medium.woff') format('woff'), url('../font/raleway-medium.ttf') format('truetype'), url('../font/raleway-medium.svg#ralewaymedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-semibold.eot');
+  src: url('../font/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-semibold.woff') format('woff'), url('../font/raleway-semibold.ttf') format('truetype'), url('../font/raleway-semibold.svg#ralewaysemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-bold.eot');
+  src: url('../font/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-bold.woff') format('woff'), url('../font/raleway-bold.ttf') format('truetype'), url('../font/raleway-bold.svg#ralewaybold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-extrabold.eot');
+  src: url('../font/raleway-extrabold.eot?#iefix') format('embedded-opentype'), url('../font/raleway-extrabold.woff') format('woff'), url('../font/raleway-extrabold.ttf') format('truetype'), url('../font/raleway-extrabold.svg#ralewayextrabold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Webfont";
+  src: url('../font/raleway-heavy.eot');
+  src: url('../font/raleway-heavy.eot?#iefix') format('embedded-opentype'), url('../font/raleway-heavy.woff') format('woff'), url('../font/raleway-heavy.ttf') format('truetype'), url('../font/raleway-heavy.svg#ralewayheavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Raleway Webfont'
+}
+
+ .text-left {
+   text-align: left;
+ }
+
+.text-center {
+  text-align: center;
+}
+
+ .text-right {
+   text-align: right;
+ }
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-extra-bold {
+  font-weight: 900;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.w50p {
+  width: 50%;
+}
+
+.w100p {
+  width: 100%;
+}
+
+.h100p {
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrapper.self-assignment {
+  width: 100%;
+  background: url('../img/bg.png') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.wrapper.self-assignment .content {
+  width: 908px;
+  min-height: 650px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper.self-assignment .heads-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 478px;
+  width: 100%;
+  background: url('../img/heads.png') no-repeat right top;
+}
+
+.wrapper.self-assignment .tablet-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 448px;
+  width: 100%;
+  background: url('../img/tablet.png') no-repeat center top;
+}
+
+.wrapper.self-assignment .content HEADER {
+  padding-top: 38px;
+}
+
+.wrapper.self-assignment .content HEADER .logo-wrapper .logo IMG {
+  width: 90px;
+  height: auto;
+}
+
+.wrapper.self-assignment .content HEADER .logo-wrapper .text {
+  color: #ffffff;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  width: 80px;
+  line-height: 17px;
+  padding-top: 25px;
+}
+
+.wrapper.self-assignment .content HEADER .pers-check {
+  width: 237px;
+  height: 44px;
+  background: url('../img/pers-check-bg.png') no-repeat;
+  color: #ffffff;
+  line-height: 44px;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 55px;
+}
+
+.wrapper.self-assignment .content SECTION > .title {
+  font-size: 42px;
+  color: #ffffff;
+  padding-top: 50px;
+  font-weight: 800;
+}
+
+.wrapper.self-assignment .content SECTION > .descr {
+  padding-top: 38px;
+  max-width: 670px;
+  line-height: 25px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.wrapper.self-assignment .content SECTION > .row {
+  padding-top: 50px;
+  padding-bottom: 110px;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .number {
+  padding-top: 11px;
+  margin-right: 22px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 44px;
+  height: 53px;
+  color: #cce4ed;
+  font-weight: normal;
+  background: url('../img/number.png') no-repeat center center;
+  font-size: 30px;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block {
+  width: 840px;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .title {
+  padding-top: 16px;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .clear {
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 34px;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .progressbar-wrapper {
+  width: 841px;
+  height: 24px;
+  margin-top: 52px;
+  background: url('../img/progress-bg.png') no-repeat;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .progressbar-wrapper .progress-bar {
+  position: relative;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .progressbar-wrapper .progress-bar:after {
+  content: '';
+  display: block;
+  top: -23px;
+  right: -30px;
+  width: 59px;
+  height: 69px;
+  background: url('../img/progress-indicator.png') no-repeat;
+  position: absolute;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .clear A {
+  display: block;
+  text-decoration: none;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .clear A:hover {
+  text-decoration: underline;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .clear > .left A {
+  color: #bf70a7;
+}
+
+.wrapper.self-assignment .content SECTION > .row > .info-block > .clear > .right A {
+  color: #747eaa;
+}
+
+.wrapper.self-assignment .content SECTION .question-block {
+  width: 430px;
+  margin: 0 auto;
+  color: #747eaa;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 22px;
+  background: url('../img/question-mark.png') no-repeat left top;
+  padding-left: 70px;
+}
+
+.wrapper.self-assignment .content SECTION .step-page {
+  padding-bottom: 20px;
+  color: #565b73;
+}
+
+.wrapper.self-assignment .content FOOTER {
+  display: block;
+  width: 100%;
+  height: 83px;
+}
+
+.wrapper.self-assignment .content FOOTER > DIV {
+  height: 100%;
+  line-height: 83px;
+  background-color: rgba(142, 147, 170, 0.5);
+}
+
+.wrapper.self-assignment .content FOOTER > DIV A {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.wrapper.self-assignment .content FOOTER > DIV A:hover {
+  text-decoration: underline;
+}

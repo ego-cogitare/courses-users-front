@@ -1,0 +1,117 @@
+.wrapper.self-assignment.step-7 .header {
+  position: static;
+}
+
+.wrapper.self-assignment.step-7 {
+  width: 100%;
+  background: url('../../img/self-assignment/step-2-3-4/bg.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.wrapper.self-assignment.step-7 .content {
+  width: 908px;
+  min-height: 650px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper.self-assignment.step-7 .heads-bg {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  height: 478px;
+  width: 100%;
+  background: url('../../img/self-assignment/step-6/heads.png') no-repeat right top;
+}
+
+.wrapper.self-assignment.step-7 .tablet-bg {
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  height: 448px;
+  width: 100%;
+  background: url('../../img/self-assignment/step-6/tablet.png') no-repeat center top;
+}
+
+.wrapper.self-assignment.step-7 .content SECTION > .title {
+  font-size: 42px;
+  color: #ffffff;
+  padding-top: 50px;
+  font-weight: 800;
+}
+
+.wrapper.self-assignment.step-7 .content SECTION > .descr {
+  padding-top: 38px;
+  max-width: 770px;
+  line-height: 25px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.wrapper.self-assignment.step-7 .content SECTION > .row {
+  padding-top: 20px;
+}
+
+.wrapper.self-assignment.step-7 .content SECTION > .row > .number {
+  padding-top: 11px;
+  margin-right: 22px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 44px;
+  height: 53px;
+  color: #cce4ed;
+  font-weight: normal;
+  background: url('../../img/self-assignment/step-6/number.png') no-repeat center center;
+  font-size: 30px;
+}
+
+.wrapper.self-assignment.step-7 .content SECTION > .row > .info-block {
+  width: 840px;
+}
+
+.wrapper.self-assignment.step-7 .content SECTION > .row > .info-block > .title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 16px;
+}
+
+.wrapper.self-assignment.step-7 .content SECTION > .row > .info-block > .write-here {
+  background: rgba(136, 144, 179, 0.7) no-repeat right center;
+  background-size: contain;
+  padding: 15px 190px 15px 15px;
+  border-radius: 6px;
+  color: #ffffff;
+  line-height: 25px;
+  margin-top: 18px;
+  margin-bottom: 24px;
+  height: 150px;
+  width: 634px;
+  resize: none;
+  font-size: 20px;
+}
+
+.wrapper.self-assignment.step-7 .btn {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 11px 14px 9px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 19px;
+  outline: none;
+  color: #2ee69f;
+}
+
+.wrapper.self-assignment.step-7 .content SECTION > .weiter {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}

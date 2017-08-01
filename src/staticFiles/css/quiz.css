@@ -1,0 +1,178 @@
+.wrapper.quiz .content {
+  width: 100%;
+  background: url('../img/quiz/bg.jpg') no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.wrapper.quiz .content .container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-top: 150px;
+}
+
+.wrapper.quiz .content .container > .title {
+    font-size: 36px;
+    color: #404040;
+}
+
+.wrapper.quiz .content .container > .descr {
+  color: #404040;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 40px;
+  display: inline-block;
+  border-bottom: 4px solid #2ee69f;
+  padding-bottom: 8px;
+}
+
+.wrapper.quiz .content .container .question-container .question {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.wrapper.quiz .content .container .question-container .question .icon {
+  width: 42px;
+  height: 42px;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  margin-right: 22px;
+}
+
+.wrapper.quiz .content .container .question-container .question .descr {
+  width: 820px;
+  line-height: 24px;
+  color: #404040;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.wrapper.quiz .content .container .question-container .answers .answer {
+  width: 430px;
+  height: 45px;
+  margin-right: 30px;
+  margin-bottom: 32px;
+  color: #ffffff;
+  background-color: #a8a8a8;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 15px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+
+.wrapper.quiz .content .container .question-container .answers .answer:not(.checked):not(.correct):not(.incorrect):hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.wrapper.quiz .content .container .question-container .answers .answer.checked {
+  background-color: #ffe14d;
+  color: #000000;
+}
+
+.wrapper.quiz .content .container .question-container .answers .answer.correct {
+  background-color: rgb(92, 230, 108);
+  color: #000000;
+  border: 3px solid #ffffff;
+  line-height: 40px;
+}
+
+.wrapper.quiz .content .container .question-container .answers .answer:after {
+  font-family: FontAwesome;
+  position: absolute;
+  right: 10px;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.wrapper.quiz .content .container .question-container .answers .answer.correct:after {
+  content: "\f00c";
+}
+
+.wrapper.quiz .content .container .question-container .answers .answer.incorrect:after {
+  content: "\f00d";
+}
+
+.wrapper.quiz .content .container .question-container .answers .answer.incorrect {
+  background-color: #a8a8a8;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  line-height: 40px;
+}
+
+.wrapper.quiz .content .container .question-container .answers .answer.selected {
+  background-color: #a8a8a8;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  line-height: 40px;
+}
+
+.type-owl {
+  background-image: url('../img/quiz/type-owl.png');
+}
+
+.wrapper.quiz .content .container .buttons-container {
+  padding: 53px 0 53px 664px;
+}
+
+.wrapper.quiz .content .container .buttons-container .hexagon {
+  width: 232px;
+  height: 267px;
+  background: url('../img/quiz/hexagon-quiz.png') no-repeat;
+  position: relative;
+  cursor: pointer;
+}
+
+.wrapper.quiz .content .container .buttons-container .hexagon:after {
+  position: absolute;
+  background: url('../img/quiz/right-arrow.png') no-repeat;
+  width: 53px;
+  height: 28px;
+  bottom: 33px;
+  left: 91px;
+  display: block;
+  content: '';
+}
+
+.wrapper.quiz .content .container .buttons-container .hexagon .descr {
+  margin: 64px auto 0;
+  width: 83%;
+}
+
+.wrapper.quiz .content .container .buttons-container .hexagon .descr > A {
+  display: block;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.wrapper.quiz .content .container .buttons-container .hexagon .descr > A:hover {
+  text-decoration: underline;
+}
+
+.wrapper.quiz .content .container .buttons-container .separator {
+  width: 180px;
+  font-weight: bold;
+  font-size: 24px;
+  height: 267px;
+  line-height: 267px;
+}
+
+.wrapper.quiz .content .text {
+  font-size: 20px;
+  color: #404040;
+  margin-top: 10px;
+}

@@ -1,0 +1,217 @@
+.wrapper.login .content {
+  width: 100%;
+  height: calc(100% - 80px);
+  background: url('../img/login/bg.jpg') no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+  min-height: 530px;
+}
+
+.wrapper.login .content .columns {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.wrapper.login .content .column:first-child {
+  padding: 68px 0 0 38px;
+  width: 465px;
+}
+
+.wrapper.login .content .column:last-child {
+  padding: 68px 0 0 0;
+  width: 465px;
+}
+
+.wrapper.login .content .column.oder {
+  padding-top: 262px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  width: 180px;
+  margin-right: 15px;
+}
+
+.wrapper.login .content .column.oder:before,
+.wrapper.login .content .column.oder:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 35px;
+  background: url('../img/login/arrow.png') no-repeat;
+  position: absolute;
+  left: 84px;
+  top: 220px;
+}
+
+.wrapper.login .content .column.oder:after {
+  top: 293px;
+  left: 58px;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.wrapper.login .content H2.title {
+  font-weight: 900;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.wrapper.login .content H2.title:before {
+  content: '';
+  position: relative;
+  display: block;
+  left: 0;
+  border-bottom: 4px solid;
+  top: 45px;
+  width: 140px;
+  color: #be99ff;
+}
+
+.wrapper.login .content H2.title.color-2:before {
+  color: #99c0ff;
+}
+
+.wrapper.login .content P {
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.wrapper.login .content .tutorial-video .plyr {
+  padding-top: 20px;
+  border-radius: 4px;
+}
+
+.wrapper.login .content .tutorial-video VIDEO {
+  width: 100%;
+}
+
+.color-1:before {
+    color: #be99ff;
+}
+
+.color-2 {
+  color: #2e74e6;
+}
+
+.color-2:before {
+    color: #99c0ff;
+}
+
+.wrapper.login .content .column FORM.user-login,
+.wrapper.login .content .column UL.social-links {
+  padding-top: 40px;
+}
+
+.wrapper.login .content .column FORM.user-login .input {
+  outline: none;
+  width: 446px;
+  height: 48px;
+  font-size: 24px;
+  padding: 0 15px;
+  border: none;
+  background: rgba(128,128,128,0.35);
+  color: #ffffff;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.wrapper.login .content .column FORM.user-login .input:focus {
+  border: 1px solid #ffffff;
+}
+
+.wrapper.login .content .column FORM.user-login .submit {
+  margin-top: 26px;
+  background: #2ee69f;
+  color: #ffffff;
+  border-color: #2ee69f;
+  font-size: 22px;
+  padding: 5px 22px;
+}
+
+.wrapper.login .content .column A.forgot-password {
+  color: #2ee69f;
+  margin-top: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.wrapper.login .content .column UL.social-links LI.social-link {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.wrapper.login .content .column UL.social-links LI.social-link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 48px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.wrapper.login .content .column UL.social-links LI.social-link > A {
+  margin-left: 62px;
+  position: relative;
+}
+
+.wrapper.login .content .column UL.social-links LI.social-link > A:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: -2px;
+  left: -65px;
+}
+
+.wrapper.login .content .column UL.social-links LI.social-link > A.facebook:before {
+  background-image: url('../img/login/facebook.png');
+}
+
+.wrapper.login .content .column UL.social-links LI.social-link > A.twitter:before {
+  background-image: url('../img/login/twitter.png');
+}
+
+.wrapper.login .content .column UL.social-links LI.social-link > A.google-plus:before {
+  background-image: url('../img/login/google.png');
+}
+
+.wrapper.login .content .column UL.social-links LI.social-link > A.linkedin:before {
+  background-image: url('../img/login/linkedin.png');
+}
+
+.wrapper.login .content .btn {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2ee69f;
+  line-height: 37px;
+  border-radius: 6px;
+  border: 2px solid;
+  padding: 3px 16px;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+
+@media all and (max-width: 1024px) {
+  .wrapper.login .header,
+  .wrapper.login .content,
+  .wrapper.login .footer {
+    width: 1230px;
+  }
+}
